@@ -3,6 +3,10 @@
 ## Setup Instructions
 Clone the Repository:
 
+git clone https://github.com/your-username/Quiz-Performance-Analyzer.git
+cd Quiz-Performance-Analyzer
+
+
 git clone https://github.com/beeredeepak/Quiz-Performance-Analyzer.git
 
 cd Quiz-Performance-Analyzer
