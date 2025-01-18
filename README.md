@@ -2,7 +2,7 @@
 
 ## Setup Instructions
 Clone the Repository:
-https://github.com/beeredeepak/Quiz-Performance-Analyzer.git
+git clone https://github.com/beeredeepak/Quiz-Performance-Analyzer.git
 cd Quiz-Performance-Analyzer
 
 Create a Virtual Environment:
