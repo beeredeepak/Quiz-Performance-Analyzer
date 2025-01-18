@@ -1,23 +1,23 @@
 # Quiz-Performance-Analyzer
 
 ## Setup Instructions
-Clone the Repository:
+## Clone the Repository:
 
 git clone https://github.com/beeredeepak/Quiz-Performance-Analyzer.git
 
 cd Quiz-Performance-Analyzer
 
-Create a Virtual Environment:
+## Create a Virtual Environment:
 
 python -m venv venv
 
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-Install Dependencies:
+## Install Dependencies:
 
 pip install -r requirements.txt
 
-Run the Script:
+## Run the Script:
 
 python analyze_quiz_performance.py
 
