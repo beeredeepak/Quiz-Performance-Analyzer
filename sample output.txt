@@ -1,0 +1,58 @@
+Performance by Topics:
+ quiz.topic
+Body Fluids and Circulation             65.2
+Human Reproduction                      40.0
+Reproductive Health                     52.0
+Respiration and Gas Exchange            24.0
+Structural Organisation in Animals      32.0
+human health and disease               112.0
+microbes in human welfare               76.0
+principles of inheritance and variation 12.0
+Name: score, dtype: float64
+
+Difficulty Levels:
+ quiz.duration
+20     76.0
+22     52.0
+23     54.7
+41    112.0
+55     52.0
+59     12.0
+89     40.0
+100    72.0
+128    32.0
+Name: score, dtype: float64
+
+Response Accuracy:
+ quiz.title
+HUMAN HEALTH AND DISEASE PYQ                     93.0
+Human Physiology                                 72.3
+Human Physiology PYQ                             96.7
+MICROBES IN HUMAN WELFARE PYQ                   100.0
+PRINCIPLES OF INHERITANCE AND VARIATION PYQ      30.0
+REPRODUCTIVE HEALTH PYQ                         100.0
+Reproduction                                     38.0
+Structural Organisation in Animals and Plants    80.0
+Name: accuracy, dtype: float64
+
+Weak Areas:
+                                quiz.title  score  accuracy
+9   PRINCIPLES OF INHERITANCE AND VARIATION PYQ   12.0      30.0
+14                             Reproduction   52.0      43.0
+15                        Respiration and Gas Exchange   24.0      66.0
+
+Improvement Trends:
+ quiz.time_date
+2024-04-25     54.7
+2024-04-26     54.0
+2024-06-07     52.0
+2024-06-10     94.0
+2024-07-03     32.0
+2024-07-11     24.0
+2024-07-12     72.0
+Name: score, dtype: float64
+
+Performance Gaps:
+                                quiz.title  score  accuracy
+9   PRINCIPLES OF INHERITANCE AND VARIATION PYQ   12.0      30.0
+14                             Reproduction   52.0      43.0
