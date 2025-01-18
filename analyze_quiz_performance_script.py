@@ -45,15 +45,14 @@ def remove_parentheses_numbers(text):
 
 df['quiz.title'] = df['quiz.title'].apply(remove_parentheses_numbers)
 
-# Function to split datetime into date and time
+# Function to split datetime into date
 def split_datetime(column):
     df[f'{column}_date'] = pd.to_datetime(df[column]).dt.date
-    df[f'{column}_time'] = pd.to_datetime(df[column]).dt.time
 
 split_datetime('quiz.time')
 split_datetime('quiz.created_at')
 
-df = df.drop(columns=['quiz.time', 'quiz.created_at','quiz.time_time','quiz.created_at_time'])
+df = df.drop(columns=['quiz.time', 'quiz.created_at'])
 
 df['accuracy'] = df['accuracy'].str.replace('%', '').astype(float)
 
